@@ -38,6 +38,7 @@ header nav ul li a {
 }
 .card-bg {
   background-color: #0f172a;
+  height: 100%;
 }
 footer {
   background-color: #0b1120;
