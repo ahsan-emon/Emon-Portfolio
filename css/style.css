@@ -1,0 +1,45 @@
+/* font link  */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto:wght@400;700&display=swap");
+
+/* link  */
+/* font-family: "Poppins", sans-serif;
+font-family: "Roboto", sans-serif; */
+
+.header-bg {
+  background-color: #0b1120;
+}
+header nav img {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  background-color: #222c44;
+}
+header nav ul li a {
+  color: #fff;
+}
+.dropdown-bg {
+  background-color: #9ca6b9;
+}
+.slider-bg {
+  background-color: #0f172a;
+  height: 90vh;
+}
+.achievement-bg {
+  background-color: #0f172afa;
+}
+.g-font1 {
+  font-family: "Poppins", sans-serif;
+}
+.g-font2 {
+  font-family: "Poppins", sans-serif;
+}
+.achievement-card {
+  height: 100%;
+}
+.card-bg {
+  background-color: #0f172a;
+}
+footer {
+  background-color: #0b1120;
+  height: 50px;
+}
