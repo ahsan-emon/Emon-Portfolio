@@ -24,7 +24,7 @@ header nav ul li a {
   background-color: #0f172a;
   height: 90vh;
 }
-.achievement-bg {
+.body-bg {
   background-color: #0f172afa;
 }
 .g-font1 {
@@ -40,7 +40,26 @@ header nav ul li a {
   background-color: #0f172a;
   height: 100%;
 }
+.social-bg {
+  background-color: #0f172a;
+  height: 100%;
+}
 footer {
   background-color: #0b1120;
   height: 50px;
+}
+.social ul {
+  list-style: none;
+}
+.social ul li {
+  width: 50px;
+  height: 45px;
+  border: 1px solid #fff;
+}
+.social ul li:hover {
+  border: 1px solid rgb(222, 43, 36);
+}
+.social ul li a {
+  text-decoration: none;
+  color: #fff;
 }
