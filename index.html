@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- fontawesome link  -->
     <script src="https://kit.fontawesome.com/20bb288a86.js" crossorigin="anonymous"></script>
+    
 
   </head>
   <body>
@@ -19,8 +20,8 @@
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-dark">
                 <div class="container-fluid">
-                    <a class="navbar-brand d-flex align-items-center" href="#home"><img class="me-2" src="images/logo.png" alt=""><h4 class="text-light opacity-50">Md. Ahsan Ullah Emon</h4></a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <a class="navbar-brand d-flex align-items-center" href="#home"><img class="me-2" src="images/logo.png" alt=""><h4 class="text-light opacity-50 fs-6">Md. Ahsan Ullah Emon</h4></a>
+                  <button class="navbar-toggler fs-6" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
                   <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
@@ -31,9 +32,6 @@
                           <li class="nav-item">
                             <a class="nav-link" href="#achievement">Achievements</a>
                           </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#skill">Skills</a>
-                          </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Projects
@@ -43,6 +41,9 @@
                             <li><a class="dropdown-item" href="#bootstrap">BOOTSTRAP</a></li>
                             <li><a class="dropdown-item" href="#other">OTHERS</a></li>
                             </ul>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#skill">Skills</a>
                         </li>
                         <li class="nav-item">
                           <a class="nav-link" href="#about">About</a>
@@ -121,7 +122,8 @@
             <div class="container">
                 <div class="row py-5">
                     <div class="col">
-                        <h1 class="fw-bold text-center g-font1 text-primary">ACHIEVEMENTS</h1>
+                        <h1 class="fw-bold text-center g-font1 text-primary mb-1">ACHIEVEMENTS</h1>
+                        <hr class="text rounded-pill hr-style m-auto">
                     </div>
                 </div>
                 <div class="row row-cols-1 row-cols-xl-2 gy-4">
@@ -165,12 +167,13 @@
             <div class="container">
                 <div class="row py-5" id="html">
                     <div class="col">
-                        <h1 class="fw-bold text-center g-font1 text-primary">PROJECTS</h1>
+                        <h1 class="fw-bold text-center g-font1 text-primary mb-1">PROJECTS</h1>
+                        <hr class="text rounded-pill hr-style m-auto">
                     </div>
                 </div>
                 <div class="row pb-4">
                     <div class="col">
-                        <h3 class="fw-bold g-font1 text-info">HTML5 & CSS</h3>
+                        <h3 class="fw-bold g-font2 text-info">HTML5 & CSS3</h3>
                     </div>
                 </div>
                 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 gy-4 pb-5">
@@ -249,7 +252,7 @@
                 </div>
                 <div class="row pb-4" id="bootstrap">
                   <div class="col">
-                      <h3 class="fw-bold g-font1 text-info">Bootstrap</h3>
+                      <h3 class="fw-bold g-font2 text-info">BOOTSTRAP</h3>
                   </div>
                 </div>
                 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 gy-4 pb-5">
@@ -292,7 +295,7 @@
                 </div>
                 <div class="row pb-4" id="other">
                   <div class="col">
-                      <h3 class="fw-bold g-font1 text-info">Others</h3>
+                      <h3 class="fw-bold g-font2 text-info">OTHERS</h3>
                   </div>
                 </div>
                 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 gy-4 pb-5">
@@ -310,12 +313,61 @@
                   </div>
                 </div>
             </div>
-        </section>
+        </section>    
+        <!-- skill start  -->
+        <section class="body-bg pb-5" id="skill">
+          <div class="container">
+            <div class="row pb-5">
+              <h1 class="fw-bold g-font1 text-primary text-center mb-1">MY SKILLS</h1>
+              <hr class="text rounded-pill hr-style m-auto">
+              <p class="text-center text-light mt-3">Got some skills</p>
+            </div>
+            <div class="row row-cols-lg-4 gy-4 text-light justify-content-center">
+              <div class="col text-center">
+                <div id="example"  class="sk1 pie-title-center text-light" data-percent="80">
+                  <span class="pie-value fs-2 fw-bold">80%</span>
+                </div>    
+                <h2 class="mt-2 g-font2">HTML5</h2>                         
+              </div>
+              <div class="col text-center">
+                <div id="example"  class="sk2 pie-title-center" data-percent="75">
+                  <span class="pie-value fs-2 fw-bold">75%</span>
+                </div>    
+                <h2 class="mt-2 g-font2">CSS3</h2>                         
+              </div>
+              <div class="col text-center">
+                <div id="example"  class="sk3 pie-title-center" data-percent="50%">
+                  <span class="pie-value fs-2 fw-bold">50%</span>
+                </div>    
+                <h2 class="mt-2 g-font2">BOOTSTRAP</h2>                         
+              </div>
+              <div class="col text-center">
+                <div id="example"  class="sk4 pie-title-center" data-percent="50">
+                  <span class="pie-value fs-2 fw-bold">50%</span>
+                </div>    
+                <h2 class="mt-2 g-font2">C++</h2>                         
+              </div>
+              <div class="col text-center">
+                <div id="example"  class="sk5 pie-title-center" data-percent="15">
+                  <span class="pie-value fs-2 fw-bold">15%</span>
+                </div>    
+                <h2 class="mt-2 g-font2">TAILWIND</h2>                         
+              </div>
+              <div class="col text-center">
+                <div id="example"  class="sk6 pie-title-center" data-percent="5">
+                  <span class="pie-value fs-2 fw-bold">5%</span>
+                </div>    
+                <h2 class="mt-2 g-font2">jQUERY</h2>                         
+              </div>
+            </div>
+          </div>
+        </section>  
         <!-- social start  -->
         <section class="social-bg py-5" id="contact">
           <div class="container">
-            <div class="row">
-              <h1 class="g-font1 fw-bold text-primary text-center">SOCIAL CONTACT</h1>
+            <div class="row pb-4">
+              <h1 class="g-font1 fw-bold text-primary text-center mb-1">SOCIAL CONTACT</h1>
+              <hr class="text rounded-pill hr-style m-auto">
             </div>
                 <div class="social pt-2">
                   <ul class="p-0 d-flex justify-content-center">
@@ -336,5 +388,9 @@
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- script for skill part  -->
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <script src="js/pie-chart.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
