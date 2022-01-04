@@ -4,12 +4,28 @@
 /* link  */
 /* font-family: "Poppins", sans-serif;
 font-family: "Roboto", sans-serif; */
+
 /* common */
+.card-bg {
+  background-color: #0f172a;
+  height: 100%;
+}
 .hr-style {
   border: 2px solid rgb(180, 253, 255);
   width: 70px;
   box-shadow: 1px 1px 2px rgb(195, 237, 243);
 }
+.body-bg {
+  background-color: #0f172afa;
+}
+.g-font1 {
+  font-family: "Poppins", sans-serif;
+}
+.g-font2 {
+  font-family: "Roboto", sans-serif;
+  color: #dff9fb;
+}
+/* header start  */
 .header-bg {
   background-color: #0b1120;
 }
@@ -25,34 +41,39 @@ header nav ul li a {
 .dropdown-bg {
   background-color: #9ca6b9;
 }
+/* slider start  */
 .slider-bg {
   background-color: #0f172a;
   height: 90vh;
 }
-.body-bg {
-  background-color: #0f172afa;
-}
-.g-font1 {
-  font-family: "Poppins", sans-serif;
-}
-.g-font2 {
-  font-family: "Roboto", sans-serif;
-  color: #dff9fb;
-}
+/* achievement start  */
 .achievement-card {
   height: 100%;
 }
-.card-bg {
-  background-color: #0f172a;
-  height: 100%;
+
+/* skill start  */
+.pie-title-center {
+  display: inline-block;
+  position: relative;
+  text-align: center;
 }
+.pie-value {
+  display: block;
+  position: absolute;
+  font-size: 14px;
+  height: 40px;
+  top: 50%;
+  left: 0;
+  right: 0;
+  margin-top: -20px;
+  line-height: 40px;
+}
+/* about start  */
+
+/* social start  */
 .social-bg {
   background-color: #0f172a;
   height: 100%;
-}
-footer {
-  background-color: #0b1120;
-  height: 50px;
 }
 .social ul {
   list-style: none;
@@ -69,19 +90,8 @@ footer {
   text-decoration: none;
   color: #fff;
 }
-.pie-title-center {
-  display: inline-block;
-  position: relative;
-  text-align: center;
-}
-.pie-value {
-  display: block;
-  position: absolute;
-  font-size: 14px;
-  height: 40px;
-  top: 50%;
-  left: 0;
-  right: 0;
-  margin-top: -20px;
-  line-height: 40px;
+/* footer start  */
+footer {
+  background-color: #0b1120;
+  height: 50px;
 }
