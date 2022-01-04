@@ -9,6 +9,11 @@ font-family: "Roboto", sans-serif; */
 .card-bg {
   background-color: #0f172a;
   height: 100%;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+}
+.card-bg:hover {
+  background-color: #050125b0;
+  box-shadow: 0px 1px 4px rgba(139, 222, 247, 0.548);
 }
 .hr-style {
   border: 2px solid rgb(180, 253, 255);
@@ -69,7 +74,14 @@ header nav ul li a {
   line-height: 40px;
 }
 /* about start  */
-
+.about-myself {
+  height: 100%;
+  cursor: pointer;
+}
+.about-myself:hover {
+  background-color: #0b1120;
+  box-shadow: 0px 1px 5px rgba(139, 221, 247, 0.692);
+}
 /* social start  */
 .social-bg {
   background-color: #0f172a;
