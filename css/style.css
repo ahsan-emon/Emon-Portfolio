@@ -1,47 +1,32 @@
-/* font link  */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto:wght@400;700&display=swap");
-
-/* link  */
-/* font-family: "Poppins", sans-serif;
-font-family: "Roboto", sans-serif; */
-
-/* common */
 .card-bg {
-  background-color: #0f172a;
+  background-color: rgb(15, 23, 42);
   height: 100%;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 0.5rem 1rem;
+  transition: all 0.5s ease-in-out 0s;
 }
 .card-bg:hover {
-  /* background-color: #050125b0; */
-  background-color: #080722;
-  box-shadow: 0px 1px 4px rgba(139, 222, 247, 0.548);
+  background-color: rgb(2 13 30);
+  box-shadow: rgba(1, 6, 28, 0.9) 0px 1px 5px 3px;
 }
 .hr-style {
   border: 2px solid rgb(180, 253, 255);
   width: 70px;
-  box-shadow: 1px 1px 2px rgb(195, 237, 243);
+  box-shadow: rgb(195, 237, 243) 1px 1px 2px;
 }
-/* .body-bg {
-  background-color: #0f172afa;
-  background-image: url("../images/background.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-} */
 main {
-  background-color: #0f172afa;
+  background-color: rgba(15, 23, 42, 0.98);
   background-image: url("../images/background.svg");
 }
 .g-font1 {
-  font-family: "Poppins", sans-serif;
+  font-family: Poppins, sans-serif;
 }
 .g-font2 {
-  font-family: "Roboto", sans-serif;
-  color: #dff9fb;
+  font-family: Roboto, sans-serif;
+  color: rgb(223, 249, 251);
 }
-/* header start  */
 .header-bg {
-  background-color: #0b1120;
+  background-color: rgb(11, 17, 32);
 }
 .header-font-size {
   font-size: 18px;
@@ -50,27 +35,24 @@ header nav img {
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  background-color: #222c44;
+  background-color: rgb(34, 44, 68);
 }
 header nav ul li a {
-  color: #fff;
+  color: rgb(255, 255, 255);
 }
 .dropdown-bg {
-  background-color: #9ca6b9;
+  background-color: rgb(156, 166, 185);
 }
-/* slider start  */
 .slider-bg {
-  background-color: #0f172a;
+  background-color: rgb(15, 23, 42);
   height: 90vh;
 }
 .slider-img {
   width: 100%;
 }
-/* achievement start  */
 .achievement-card {
   height: 100%;
 }
-/* project  */
 .link-effect {
   display: inline-block;
   position: relative;
@@ -80,17 +62,16 @@ header nav ul li a {
   display: block;
   position: absolute;
   left: 50%;
-  bottom: 0;
+  bottom: 0px;
   transform: translateX(-50%);
   width: 0%;
   height: 2px;
-  background-color: #0d6efd;
-  transition: 0.4s all ease-in-out;
+  background-color: rgb(13, 110, 253);
+  transition: all 0.4s ease-in-out 0s;
 }
 .link-effect:hover::after {
   width: 100%;
 }
-/* skill start  */
 .pie-title-center {
   display: inline-block;
   position: relative;
@@ -102,23 +83,21 @@ header nav ul li a {
   font-size: 14px;
   height: 40px;
   top: 50%;
-  left: 0;
-  right: 0;
+  left: 0px;
+  right: 0px;
   margin-top: -20px;
   line-height: 40px;
 }
-/* about start  */
 .about-myself {
   height: 100%;
   cursor: pointer;
 }
 .about-myself:hover {
-  background-color: #0b1120;
-  box-shadow: 0px 1px 5px rgba(139, 221, 247, 0.692);
+  background-color: rgb(11, 17, 32);
+  box-shadow: rgba(139, 221, 247, 0.69) 0px 1px 5px;
 }
-/* social start  */
 .social-bg {
-  background-color: #0f172a;
+  background-color: rgb(15, 23, 42);
   height: 100%;
 }
 .social ul {
@@ -127,20 +106,18 @@ header nav ul li a {
 .social ul li {
   width: 50px;
   height: 45px;
-  border: 1px solid #fff;
+  border: 1px solid rgb(255, 255, 255);
 }
 .social ul li:hover {
   border: 1px solid rgb(222, 43, 36);
 }
 .social ul li a {
   text-decoration: none;
-  color: #fff;
+  color: rgb(255, 255, 255);
 }
-/* footer start  */
 footer {
-  background-color: #0b1120;
+  background-color: rgb(11, 17, 32);
 }
-
 @media only screen and (min-width: 426px) and (max-width: 768px) {
   .slider-img {
     width: 70%;
